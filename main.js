@@ -3,7 +3,19 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Hello Vue!'
+        //aggiungo un array de e-mails
+      arrayMails: [
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        ''
+      ],
     }
   }
 }).mount('#app')
